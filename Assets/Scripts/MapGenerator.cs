@@ -11,16 +11,25 @@ public class MapGenerator : MonoBehaviour
     const int mapChunkSize = 241;
     [Range(0, 6)]
     public int levelOfDetail;
+
+    [Range(0f, 25f)]
     public float noiseScale;
 
+    [Range(0, 10)]
     public int octaves;
+
     [Range(0, 1)]
     public float persistance;
+
+    [Range(0, 10)]
     public float lacunarity;
 
+    [Range(0, 10)]
     public int seed;
+
     public Vector2 offset;
 
+    [Range(0, 30)]
     public float meshHeightMultiplier;
     public AnimationCurve meshHeightCurve;
 

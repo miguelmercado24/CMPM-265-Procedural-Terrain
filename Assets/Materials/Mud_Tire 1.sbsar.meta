@@ -1,0 +1,83 @@
+fileFormatVersion: 2
+guid: 03c5bed257ce18e49a4aee38e8cead07
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: Mud_Tire/Mud_Tire
+    400000: Mud_Tire/Mud_Tire/Transform
+    2100000: mat.Mud_Tire
+    2300000: Mud_Tire/Mud_Tire/MeshRenderer
+    2800000: Mud_Tire_Base Color
+    2800002: Mud_Tire_Normal
+    2800004: Mud_Tire_Metallic
+    2800006: Mud_Tire_Height
+    2800008: Mud_Tire_Ambient Occlusion
+    3300000: Mud_Tire/Mud_Tire/MeshFilter
+    11400000: sbsar
+    11400002: graph0
+    13500000: Mud_Tire/Mud_Tire/SphereCollider
+    100100000: Mud_Tire
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: b954f3890f55cb14dba21eeeb19a7462, type: 3}
+  mGraphInstanceData:
+  - graphLabel: Mud_Tire
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://Mud_Tire\" label=\"\" >\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: Base Color,Normal,Metallic,Height,Ambient Occlusion
+    texturePackingList:
+    - outputName: Base Color
+      alphaSource: Base Color
+    - outputName: Normal
+      alphaSource: Normal
+    - outputName: Roughness
+      alphaSource: Roughness
+    - outputName: Metallic
+      alphaSource: Smoothness
+    - outputName: Height
+      alphaSource: Height
+    - outputName: Ambient Occlusion
+      alphaSource: Ambient Occlusion
+    colorSpaceList:
+    - outputName: Base Color
+      bLinear: 0
+    - outputName: Normal
+      bLinear: 1
+    - outputName: Roughness
+      bLinear: 1
+    - outputName: Metallic
+      bLinear: 1
+    - outputName: Height
+      bLinear: 1
+    - outputName: Ambient Occlusion
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: Default
+      bOverride: 0
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 0
+      textureHeight: 0
+      textureFormat: 0
+      loadBehavior: 0
+    - label: Standalone
+      bOverride: 0
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 0
+      textureHeight: 0
+      textureFormat: 0
+      loadBehavior: 0
+    - label: iPhone
+      bOverride: 0
+      bLockRatio: 1
+      bHighQuality: 0
+      textureWidth: 0
+      textureHeight: 0
+      textureFormat: 0
+      loadBehavior: 0
